@@ -13,6 +13,8 @@ class Calc:
         return a % b
     def foo(self, a, b):
         return a - b
+    def foo2(self, a, b):
+        return a - b
 
 class TestStringMethods(unittest.TestCase):
     def test_sum(self):
