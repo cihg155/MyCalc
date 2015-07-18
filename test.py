@@ -24,5 +24,6 @@ class TestStringMethods(unittest.TestCase):
         c = Calc()
         self.assertEqual(c.multi(-8.127,-2), 16.25)
 
+
 if __name__ == '__main__':
     unittest.main()
