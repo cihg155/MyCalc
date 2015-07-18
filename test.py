@@ -9,6 +9,8 @@ class Calc:
         return a - b
     def multi(self, a, b):
         return round(a * b, 2)
+    def mode(self, a, b):
+        return a % b
 
 class TestStringMethods(unittest.TestCase):
     def test_sum(self):
