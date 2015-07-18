@@ -4,11 +4,11 @@ class Calc:
     def sum(self, a, b):
         return a+b
     def divide(self, a, b):
-        return round(float(a)/float(b), 2)
+        return a/b
     def sub(self, a, b):
         return a - b
     def multi(self, a, b):
-        return round(a * b, 2)
+        return a * b
 
 class TestStringMethods(unittest.TestCase):
     def test_sum(self):
