@@ -4,11 +4,11 @@ class Calc:
     def sum(self, a, b):
         return a+b
     def divide(self, a, b):
-        return round(float(a)/float(b), 2)
+        return a/b
     def sub(self, a, b):
         return a - b
     def multi(self, a, b):
-        return round(a * b, 2)
+        return a * b
 
 class TestStringMethods(unittest.TestCase):
     def test_sum(self):
@@ -22,8 +22,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(c.divide(7,8), 0.88)
     def test_multi(self):
         c = Calc()
-        self.assertEqual(c.multi(-8.127,-2), 16.25)
-
+        self.assertEqual(c.multi(-8.127,-2), -16.25)
 
 if __name__ == '__main__':
     unittest.main()
