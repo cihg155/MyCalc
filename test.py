@@ -13,7 +13,7 @@ class Calc:
 class TestStringMethods(unittest.TestCase):
     def test_sum(self):
         c = Calc()
-        self.assertEqual(c.sum(7,8), 15)
+        self.assertEqual(c.sum(7,8), 17)
     def test_sub(self):
         c = Calc()
         self.assertEqual(c.sub(7,8), -1)
